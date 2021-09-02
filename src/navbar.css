@@ -1,0 +1,31 @@
+:root {
+    --charcoal: #2f4550; 
+    --dark-electric: #586f7c; 
+    --ghost-white: #f4f4f9; 
+    --space-cadet: #192a51; 
+    --indigo-dye: #2b4162 
+}
+
+a:hover {
+    color: gray
+}
+
+.navbar-background {
+    background-color: var(--charcoal);
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: var(--ghost-white); 
+    text-decoration: none;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(223, 223, 223)
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--ghost-white); 
+    border-color: transparent;
+}
+
+
