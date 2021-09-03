@@ -1,6 +1,11 @@
+body, html {
+    background-color: var(--ghost-white);
+}
+
+/* first carousel */ 
 .c-images {
     width: 100%; 
-    max-height: 750px; 
+    max-height: 1000px; 
 }
 
 #mainCarousel {
@@ -11,7 +16,7 @@
     color:var(--ghost-white);
     position:absolute;
     z-index:12;
-    margin-top: 18%;
+    margin-top: 23%;
     width:100%;
     text-align: center;
 }
@@ -30,7 +35,9 @@
     height: 1.5rem;
 }
 
-.offer-heading {
+/* what we offer section */ 
+
+.landing-page-headings {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -49,6 +56,8 @@
     margin-top: 5%
 }
 
+/* work examples section */ 
+
 #carouselExampleCaptions {
     width: 60%; 
 }
@@ -59,6 +68,15 @@
 
 .carousel-caption {
     bottom: 40%;
+}
+
+/* about us section */ 
+.devs-img {
+    width: 75%;
+}
+
+.about-us-desc {
+    text-align: left;
 }
 
 /* media queries */ 
