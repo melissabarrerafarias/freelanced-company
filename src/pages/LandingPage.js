@@ -4,11 +4,12 @@ import '../landing-page.css';
 import placeholder1 from '../assets/images/SF.jpg';
 import placeholder2 from '../assets/images/odd-city.jpg';
 import placeholder3 from '../assets/images/city.jpg';
-import developers from '../assets/images/shelsy.jpg'; 
+import developers from '../assets/images/shelsy.jpg';
 
 function LandingPage() {
     return (
         <main>
+            {/* front page carousel */}
             <div id="#mainCarousel">
                 <div class="carousel-branding"><h1 className="brand-name">Spacebarr</h1></div>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -34,18 +35,19 @@ function LandingPage() {
                 </div>
             </div>
 
+            {/* what we offer section */}
             <div className="container-fluid">
                 <h1 className="landing-page-headings text-center">What We Offer</h1>
 
                 <div className="row text-center mt-5">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-12">
                         <i class="fas fa-laptop offer-icons"></i>
                         <p className="offer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                             eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-12">
                         <i className="fas fa-tools offer-icons"></i>
                         <p className="offer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -54,6 +56,7 @@ function LandingPage() {
                 </div>
             </div>
 
+            {/* our work section with carousel*/}
             <h1 className="landing-page-headings text-center">Our Work</h1>
             <div className="container-fluid d-flex justify-content-center">
 
@@ -97,16 +100,17 @@ function LandingPage() {
                 </div>
             </div>
 
+            {/* about us section */}
             <div id="about" className="container">
                 <h1 className="landing-page-headings text-center">About Us</h1>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-12">
                         <p className="about-us-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                             eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-end">  {/* can change to 'text-center' */}
-                        <img src={developers} className = "devs-img"></img>
+                    <div className="col-md-6 col-sm-12 d-flex justify-content-end justify-content-sm-center">  {/* can change to 'text-center' */}
+                        <img src={developers} className="devs-img"></img>
                     </div>
                 </div>
             </div>
