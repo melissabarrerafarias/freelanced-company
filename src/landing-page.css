@@ -79,6 +79,10 @@ body, html {
     text-align: left;
 }
 
+#about {
+    margin-bottom: 15%
+}
+
 /* media queries */ 
 @media (max-width: 1399.98px) {
     .carousel-branding { 
@@ -103,6 +107,15 @@ body, html {
 
     .example-images {
         height: 500px
+    }
+
+    .devs-img {
+        width: 100%;
+    }
+    
+    .about-us-desc {
+        text-align: left;
+        font-size: 15px;
     }
 }
 
@@ -141,6 +154,21 @@ body, html {
     #carouselExampleCaptions h5 {
         font-size: 18px;
     }
+
+    .devs-img {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    #developersImages {
+        justify-content: center;
+    }
+    
+    .about-us-desc {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10%;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -173,6 +201,19 @@ body, html {
 
     #carouselExampleCaptions h5 {
         font-size: 15px;
+    }
+
+    .devs-img {
+        width: 80%;
+    }
+
+    #developersImages {
+        justify-content: center;
+    }
+    
+    .about-us-desc {
+        font-size: 15px;
+        margin-top: 10%;
     }
 }
 
@@ -213,6 +254,12 @@ body, html {
 
     #carouselExampleCaptions h5 {
         font-size: 14px;
+    }
+
+    .about-us-desc {
+        font-size: 14px;
+        padding-right: 5%; 
+        padding-left: 5%;
     }
 }
 
