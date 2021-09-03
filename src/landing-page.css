@@ -20,3 +20,9 @@
     font-size: 70px;
     text-decoration: underline;
 }
+
+#mainCarousel{
+    position:absolute;
+    width:100%;
+    top: -15;
+  }

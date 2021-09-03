@@ -7,7 +7,7 @@ import placeholder3 from '../assets/images/placeholder-3.jpg';
 
 function LandingPage() {
     return (
-        <main>
+        <main id="#mainCarousel">
             <div class="carousel-branding"><h1 className = "brand-name">Spacebarr</h1></div>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">

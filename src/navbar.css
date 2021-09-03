@@ -11,21 +11,30 @@ a:hover {
 }
 
 .navbar-background {
-    background-color: var(--charcoal);
+    background-color: transparent;
 }
 
 .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
     color: var(--ghost-white); 
     text-decoration: none;
+    transition-duration: 0.8s;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(223, 223, 223)
+    color: var(--dark-electric)
 }
 
 .navbar-light .navbar-toggler {
     color: var(--ghost-white); 
     border-color: transparent;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 14; 
 }
 
 
