@@ -84,6 +84,10 @@ body, html {
     .carousel-branding { 
         margin-top: 26%;
     }
+
+    #carouselExampleCaptions {
+        width: 80%; 
+    }
  }
 
 @media (max-width: 1199.98px) {
@@ -95,6 +99,10 @@ body, html {
 @media (max-width: 991.98px) {
     .brand-name {
         font-size: 50px
+    }
+
+    .example-images {
+        height: 500px
     }
 }
 
@@ -115,6 +123,24 @@ body, html {
     .offer-description {
         margin-top: 5%; 
     }
+
+    #carouselExampleCaptions {
+        width: 80%; 
+        margin-top: 10%;
+    }
+    
+    .example-images {
+        height: 500px
+    }
+    
+    .carousel-caption {
+        bottom: 35%;
+        font-size: 15px;
+    }
+
+    #carouselExampleCaptions h5 {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -130,6 +156,23 @@ body, html {
     .offer-description {
         padding-right: 10%; 
         padding-left: 10%;
+    }
+
+    #carouselExampleCaptions {
+        width: 90%; 
+    }
+    
+    .example-images {
+        height: 400px
+    }
+    
+    .carousel-caption {
+        bottom: 35%;
+        font-size: 13px;
+    }
+
+    #carouselExampleCaptions h5 {
+        font-size: 15px;
     }
 }
 
@@ -153,6 +196,23 @@ body, html {
         font-size: 14px;
         padding-right: 10%; 
         padding-left: 10%;
+    }
+
+    #carouselExampleCaptions {
+        width: 95%; 
+    }
+    
+    .example-images {
+        height: 300px
+    }
+    
+    .carousel-caption {
+        bottom: 25%;
+        font-size: 12px;
+    }
+
+    #carouselExampleCaptions h5 {
+        font-size: 14px;
     }
 }
 

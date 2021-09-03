@@ -3,7 +3,7 @@ import '../landing-page.css';
 
 import placeholder1 from '../assets/images/SF.jpg';
 import placeholder2 from '../assets/images/odd-city.jpg';
-import placeholder3 from '../assets/images/city.jpg';
+import placeholder3 from '../assets/images/clean.jpg';
 import developers from '../assets/images/shelsy.jpg';
 
 function LandingPage() {
@@ -69,21 +69,21 @@ function LandingPage() {
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src={placeholder1} class="d-block w-100 example-images" alt="..."></img>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src={placeholder2} class="d-block w-100 example-images" alt="..."></img>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src={placeholder3} class="d-block w-100 example-images" alt="..."></img>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
                             </div>
