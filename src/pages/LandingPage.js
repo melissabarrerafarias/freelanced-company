@@ -42,16 +42,16 @@ function LandingPage() {
                 <div className="row text-center mt-5">
                     <div className="col-md-6 col-sm-12">
                         <i class="fas fa-laptop offer-icons"></i>
-                        <p className="offer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p className="offer-description">We recognize that having an online presence is essential for a businesses' growth. With so many options available
+                        you may ask yourself, "Where do I get started?" and "How do I stand out?".  Spacebarr wants you to succeed. That's why we work with you to build a customized website that fits your
+                        needs! One on one consultations and full transparency. Let us help you open new doors.</p> {/* take a load off?? */}
                     </div>
 
                     <div className="col-md-6 col-sm-12">
                         <i className="fas fa-tools offer-icons"></i>
-                        <p className="offer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p className="offer-description">Every year, technologies change and improve. Having a clean and up-to-date site not only looks professional but is vital
+                        in representing your business standards. So, have an older website that needs upgrading and a little... 'umph'? Thinking of adding new features? Aiming to rebrand?
+                        Spacebarr can help guide you and make the process easier!</p>
                     </div>
                 </div>
             </div>
@@ -105,14 +105,20 @@ function LandingPage() {
                 <h1 className="landing-page-headings text-center">About Us</h1>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
-                        <p className="about-us-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p className="about-us-desc">We are first-generation immigrant sisters, (Melissa left, Shelsy right), who learned the importance of being industrious from a 
+                        young age. After earning our certification as full-stack web developers at UC Berkeley, we decided to use our knowledge and turn our passion for creativity into an
+                        opportunity to help up-and-coming businesses reach their full potential. Our company takes pride in being trustworthy and honest. We look forward to working 
+                        with you!</p>
                     </div>
                     <div id="developersImages" className="col-md-6 col-sm-12 d-flex justify-content-lg-end">  {/* can change to 'text-center' */}
                         <img src={developers} className="devs-img"></img>
                     </div>
                 </div>
+            </div>
+
+            {/* FAQ section */}
+            <div id="FAQ">
+            <h1 className="landing-page-headings text-center">FAQ</h1>
             </div>
         </main>
     )

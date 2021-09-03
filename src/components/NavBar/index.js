@@ -14,6 +14,9 @@ function NavBar() {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#FAQ">FAQ</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#about">ABOUT US</a>
                         </li>
                         <li class="nav-item">
