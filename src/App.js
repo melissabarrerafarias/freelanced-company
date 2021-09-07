@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import NavBar from './components/NavBar'; 
 import LandingPage from "./pages/LandingPage"; 
+import Contact from './pages/Contact';
 import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         <NavBar />
         <Switch> 
           <Route exact path = "/" component = {LandingPage}></Route>
+          <Route exact path = "/contact" component = {Contact}></Route>
         </Switch>
         <Footer/>
       </div>
