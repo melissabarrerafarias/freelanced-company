@@ -1,11 +1,3 @@
-:root {
-    --charcoal: #2f4550; 
-    --dark-electric: #586f7c; 
-    --ghost-white: #f4f4f9; 
-    --space-cadet: #192a51; 
-    --indigo-dye: #2b4162 
-}
-
 a:hover {
     color: gray
 }

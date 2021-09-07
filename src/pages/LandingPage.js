@@ -125,7 +125,7 @@ function LandingPage() {
                     <div class="text-center">
                         <div class="collapse multi-collapse" id="FAQ1">
                             <div class="card card-body">
-                                No! Though we are located in Olympiam, Washington we are open to work with people nationwide.
+                                No! Though we are located in Olympia, Washington we are open to work with people nationwide.
                             </div>
                         </div>
                     </div>
