@@ -12,7 +12,7 @@ function Contact() {
 
             <div className="container"> {/* row must always be placed inside container (will cause white space if not) */}
                 <div className="row">
-                    <div id = "businessHours" className="col-md-6 text-center d-flex justify-content-md-end d-flex justify-content-sm-center">
+                    <div id="businessHours" className="col-md-6 text-center d-flex justify-content-md-end d-flex justify-content-sm-center">
                         <div className="business-hours-div">
                             <h3 className="business-heading">Business Hours</h3>
                             <ul className="hours">
@@ -36,6 +36,28 @@ function Contact() {
                             <a href="mailto:spacebarr@gmail.com"> @spacebarr@gmail.com</a>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="container">
+                <h1 className="text-center">Get In Touch With Us</h1>
+                <h3 className="text-center">we'd love to work with you. leave a message</h3>
+                <div className="col-md-12">
+                    <form>
+                        <div class="input-group">
+                            <input id="clientName" placeholder="name" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                        </div>
+
+                        <div class="input-group">
+                            <input id="clientEmail" placeholder="email" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                        </div>
+
+                        <div class="input-group">
+                            <textarea id="clientMessage" placeholder="message" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                        </div>
+
+                        <button className="submit-btn">Submit</button>
+                    </form>
                 </div>
             </div>
         </main>
