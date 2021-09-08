@@ -11,7 +11,7 @@ function LandingPage() {
         <main>
             {/* front page carousel */}
             <div id="#mainCarousel">
-                <div class="carousel-branding"><h1 className="brand-name">Spacebarr</h1></div>
+                <div class="carousel-branding"><h1 className="brand-name">SPACEBARR</h1></div>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -135,7 +135,7 @@ function LandingPage() {
                     <div class="text-center">
                         <div class="collapse multi-collapse" id="FAQ2">
                             <div class="card card-body">
-                                Depends on your needs. If you want a rough estimate, call us. Completely free consulations.
+                               It all depends on your website needs. If you'd like a rough estimate, feel free to contact us. We do free consultations. 
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,8 @@ function LandingPage() {
                 <div class="text-center">
                     <div class="collapse multi-collapse" id="FAQ3">
                         <div class="card card-body">
-                            Website building tools can be difficult and sometimes frustrating to use. Let us take care of it for you.
+                            Website building tools can sometimes be frustrating to use. We take the tedious task off your hands! In addition, we offer customizable 
+                            web-design that can help you stand out. 
                         </div>
                     </div>
                 </div>
