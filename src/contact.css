@@ -88,6 +88,27 @@ ol, ul {
 }
 
 /*input form styles*/ 
+.client-form {
+    margin-top: 40px; 
+    margin-bottom: 60px;
+} 
+
+#contactFormDiv {
+    margin-top: 8%
+}
+
+#contactFormDiv h1 {
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#contactFormDiv h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
 .input-group {
     width: 50%;
     margin: 0 auto;
@@ -127,6 +148,21 @@ ol, ul {
     box-shadow: none;
     border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,143,137,1) 49%, rgba(0,241,255,1) 100%); 
     border-image-slice: 1;
+}
+
+.submit-btn {
+    background-color: var(--indigo-dye);
+    color: ghostwhite; 
+    padding: 10px; 
+    border-radius: 10px;
+    border: none; 
+    letter-spacing: 1px;
+    font-family: 'Urbanist', sans-serif;
+    transition-duration: 0.5s;
+}
+
+.submit-btn:hover {
+    color: var(--dark-electric)
 }
 
 
@@ -205,6 +241,10 @@ ol, ul {
         font-size: 18px;
         margin-right: 10px
     }
+
+    .input-group {
+        width: 90%;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -221,6 +261,22 @@ ol, ul {
 
     .contact-divs {
         width: 78%;
+    }
+
+    #contactFormDiv h1 {
+        font-size: 25px;
+    }
+    
+    #contactFormDiv h3 {
+        font-size: 15px;
+    }
+
+    .input-group {
+        width: 90%;
+    }
+    
+    .submit-btn {
+        font-size: 13px;
     }
 }
 
@@ -255,6 +311,33 @@ ol, ul {
         font-size: 15px;
         margin-right: 10px
     }
+
+    #contactFormDiv h1 {
+        font-size: 25px;
+    }
+    
+    #contactFormDiv h3 {
+        font-size: 15px;
+    }
+
+    .input-group {
+        width: 90%;
+    }
+    #contactFormDiv h1 {
+        font-size: 25px;
+    }
+    
+    #contactFormDiv h3 {
+        font-size: 15px;
+    }
+
+    .input-group {
+        width: 90%;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 375.98px) {
@@ -270,4 +353,21 @@ ol, ul {
         font-size: 15px;
         margin-right: 5px
     }
+
+    #contactFormDiv h1 {
+        font-size: 25px;
+    }
+    
+    #contactFormDiv h3 {
+        font-size: 15px;
+    }
+
+    .input-group {
+        width: 90%;
+    }
+
+    .submit-btn {
+        font-size: 12px;
+    }
+
 }

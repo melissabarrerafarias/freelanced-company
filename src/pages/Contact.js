@@ -39,11 +39,11 @@ function Contact() {
                 </div>
             </div>
 
-            <div className="container">
+            <div id = "contactFormDiv" className="container">
                 <h1 className="text-center">Get In Touch With Us</h1>
-                <h3 className="text-center">we'd love to work with you. leave a message</h3>
+                <h3 className="text-center">We'd love to work with you. Leave a message</h3>
                 <div className="col-md-12">
-                    <form>
+                    <form className = "client-form">
                         <div class="input-group">
                             <input id="clientName" placeholder="name" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
                         </div>
@@ -55,8 +55,9 @@ function Contact() {
                         <div class="input-group">
                             <textarea id="clientMessage" placeholder="message" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
                         </div>
-
-                        <button className="submit-btn">Submit</button>
+                        <div className="d-flex justify-content-center">
+                        <button className="submit-btn text-end">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
