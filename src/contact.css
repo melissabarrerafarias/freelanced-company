@@ -280,6 +280,14 @@ ol, ul {
     .submit-btn {
         font-size: 13px;
     }
+
+    .contact-div-heading {
+        margin-top: 32%;
+    }
+    
+    .contact-heading {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -340,6 +348,10 @@ ol, ul {
     .submit-btn {
         font-size: 14px;
     }
+    
+    .contact-heading {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 375.98px) {
@@ -371,5 +383,8 @@ ol, ul {
     .submit-btn {
         font-size: 12px;
     }
-
+    
+    .contact-heading {
+        font-size: 15px;
+    }
 }

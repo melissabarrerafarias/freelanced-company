@@ -4,8 +4,8 @@ import '../../navbar.css';
 function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light navbar-background">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">SPACEBARR</a>
+            <div id = "navBarElements" class="container-fluid">
+                <a id = "navTitle" class="navbar-brand" href="/">SPACEBARR</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-chevron-circle-down"></i>

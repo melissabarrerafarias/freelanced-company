@@ -2,6 +2,10 @@ a:hover {
     color: gray
 }
 
+#navTitle {
+    text-decoration: underline;
+}
+
 .navbar-background {
     background-color: transparent;
 }
@@ -24,12 +28,25 @@ a:hover {
     border-color: transparent;
 }
 
-.navbar{
+.navbar {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 14; 
+}
+
+/* media queries */
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+    }
 }
 
 
