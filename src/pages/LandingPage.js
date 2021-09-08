@@ -1,9 +1,9 @@
 import React from 'react';
 import '../landing-page.css';
 
-import placeholder1 from '../assets/images/SF.jpg';
-import placeholder2 from '../assets/images/odd-city.jpg';
-import placeholder3 from '../assets/images/clean.jpg';
+import placeholder1 from '../assets/images/laptop-2838921_1920.jpg';
+import placeholder2 from '../assets/images/startup-594090_1920.jpg';
+import placeholder3 from '../assets/images/job-5382501_1920.jpg';
 import developers from '../assets/images/shelsy.jpg';
 
 function LandingPage() {

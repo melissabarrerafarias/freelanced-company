@@ -27,6 +27,8 @@ body, html {
     margin-top: 23%;
     width: 100%;
     text-align: center;
+    text-shadow:  2px 2px #2b416276;
+    letter-spacing: 2px;
 }
 
 .carousel-control-next, .carousel-control-prev {

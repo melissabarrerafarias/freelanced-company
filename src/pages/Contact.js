@@ -1,12 +1,12 @@
 import React from 'react';
 
 import '../contact.css';
-import computerImg from '../assets/images/desk.jpg';
+import computerImg from '../assets/images/computer-glasses.jpg';
 function Contact() {
     return (
         <main>
             <div className="contact-hero">
-                <div class="contact-div-heading"><h1 className="contact-heading">Contact Us</h1></div>
+                <div class="contact-div-heading"><h1 className="contact-heading">Get In Touch With Us</h1></div>
                 <img src={computerImg} className="contact-img"></img>
             </div>
 
@@ -40,8 +40,8 @@ function Contact() {
             </div>
 
             <div id = "contactFormDiv" className="container">
-                <h1 className="text-center">Get In Touch With Us</h1>
-                <h3 className="text-center">We'd love to work with you. Leave a message</h3>
+                <h1 className="text-center">Contact Us</h1>
+                <h3 className="text-center">We'd love to work with you</h3>
                 <div className="col-md-12">
                     <form className = "client-form">
                         <div class="input-group">
