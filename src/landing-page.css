@@ -42,6 +42,12 @@ body, html {
     font-weight: bold;
 }
 
+#brand-background {
+    background-color: #353535a3;
+    padding: 15px; 
+    border-radius: 10px;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 1.5rem;
     height: 1.5rem;
@@ -153,8 +159,19 @@ body, html {
  }
 
 @media (max-width: 991.98px) {
+    .c-images {
+        max-height: 450px; 
+    }
+
+    .carousel-branding {
+        margin-top: 22%;
+    }
     .brand-name {
-        font-size: 50px
+        font-size: 30px
+    }
+
+    #brand-background {
+        padding: 12px; 
     }
 
     .example-images {
@@ -172,8 +189,16 @@ body, html {
 }
 
 @media (max-width: 767.98px) {
+    .c-images {
+        max-height:350px; 
+    }
+
+    .carousel-branding {
+        margin-top: 25%;
+    }
+
     .brand-name {
-        font-size: 40px
+        font-size: 20px
     }
 
     .landing-page-headings {
@@ -229,8 +254,20 @@ body, html {
 }
 
 @media (max-width: 575.98px) {
+    .c-images {
+        max-height: 300px; 
+    }
+
+    .carousel-branding {
+        margin-top: 25%;
+    }
+
     .brand-name {
-        font-size: 25px
+        font-size: 20px
+    }
+
+    #brand-background {
+        padding: 12px; 
     }
 
     .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -281,8 +318,20 @@ body, html {
 }
 
 @media (max-width: 375.98px) {
+    .c-images {
+        max-height: 190px; 
+    }
+
+    .carousel-branding {
+        margin-top: 25%;
+    }
+
     .brand-name {
-        font-size: 20px
+        font-size: 15px
+    }
+
+    #brand-background {
+        padding: 8px; 
     }
 
     .landing-page-headings {

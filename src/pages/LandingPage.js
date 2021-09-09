@@ -11,7 +11,7 @@ function LandingPage() {
         <main>
             {/* front page carousel */}
             <div id="#mainCarousel">
-                <div class="carousel-branding"><h1 className="brand-name">SPACE<span className = "barr">BARR</span></h1></div>
+                <div class="carousel-branding"><h1 className="brand-name"><span id = "brand-background">SPACE<span className = "barr">BARR</span></span></h1></div>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -147,7 +147,7 @@ function LandingPage() {
                     <div class="collapse multi-collapse" id="FAQ3">
                         <div class="card card-body">
                             Website building tools can sometimes be frustrating to use. We take the tedious task off your hands! In addition, we offer customizable 
-                            web-design that can help you stand out. 
+                            web-designs that can help you stand out. 
                         </div>
                     </div>
                 </div>

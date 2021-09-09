@@ -6,7 +6,7 @@ function Contact() {
     return (
         <main>
             <div className="contact-hero">
-                <div class="contact-div-heading"><h1 className="contact-heading">Get In Touch With Us</h1></div>
+                <div class="contact-div-heading"><h1 className="contact-heading"><span id = "get-in-touch">Get In Touch With Us</span></h1></div>
                 <img src={computerImg} className="contact-img"></img>
             </div>
 

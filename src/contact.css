@@ -25,6 +25,12 @@
     width: 100%; 
 }
 
+#get-in-touch {
+    background-color: #353535a3;
+    padding: 15px; 
+    border-radius: 10px;
+}
+
 /*business hours styles*/ 
 
 .business-heading {
@@ -260,6 +266,10 @@ ol, ul {
 }
 
 @media (max-width: 767.98px) {
+    #get-in-touch {
+        padding: 12px;
+    }
+
     .hours li {
         margin-bottom: 40px;
         font-size: 18px;
@@ -301,6 +311,11 @@ ol, ul {
 }
 
 @media (max-width: 575.98px) {
+
+    #get-in-touch {
+        padding: 10px;
+    }
+
     .hours li {
         margin-bottom: 40px;
         font-size: 15px;
@@ -365,6 +380,10 @@ ol, ul {
 }
 
 @media (max-width: 375.98px) {
+    #get-in-touch {
+        padding: 8px;
+    }
+
     .business-hours-div {
         width: 100%;
     }
