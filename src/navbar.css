@@ -1,9 +1,13 @@
-a:hover {
+/* a:hover {
     color: gray
+} */
+
+.barr {
+    color: #BBB5D6
 }
 
-#navTitle {
-    text-decoration: underline;
+#navTitle:hover {
+    color: var(--dark-electric)
 }
 
 .navbar-background {

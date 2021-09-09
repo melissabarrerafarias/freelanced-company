@@ -39,7 +39,7 @@ body, html {
     font-size: 50px;
     letter-spacing: 6px;
     font-family: 'Montserrat', sans-serif;
-
+    font-weight: bold;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
