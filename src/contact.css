@@ -167,6 +167,16 @@ ol, ul {
     color: var(--dark-electric)
 }
 
+#confirmationSent {
+    text-align: center;
+    margin-top: 21%; 
+    margin-bottom: 20%;
+}
+
+.go-back {
+    text-decoration: underline; 
+    color: var(--ghost-white)
+}
 
 /* media queries */ 
 @media (max-width: 1399.98px) {

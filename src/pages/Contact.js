@@ -33,32 +33,40 @@ function Contact() {
 
                         <div className="contact-divs">
                             <i class="fas fa-envelope-square contact-logos"></i>Or Email Us at
-                            <a href="mailto:spacebarr@gmail.com"> @spacebarr@gmail.com</a>
+                            <a href="mailto:spacebarr@gmail.com"> @spacebarrofficial@gmail.com</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id = "contactFormDiv" className="container">
+            <div id="contactFormDiv" className="container">
                 <h1 className="text-center">Contact Us</h1>
                 <h3 className="text-center">We'd love to work with you</h3>
                 <div className="col-md-12">
-                    <form className = "client-form">
+
+                    <form className="client-form" action="https://formsubmit.co/bf08c4938b1b5a7ebce82ff857e28784" method="POST">
                         <div class="input-group">
-                            <input id="clientName" placeholder="name" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                            <input name="name" id="clientName" placeholder="name" type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" required />
                         </div>
 
                         <div class="input-group">
-                            <input id="clientEmail" placeholder="email" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                            <input name="email" id="clientEmail" placeholder="email" type="email" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" required />
                         </div>
 
-                        <div class="input-group">
-                            <textarea id="clientMessage" placeholder="message" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                        <input type='hidden' name="_next" value="http://localhost:3000/confirm" />
+                        <input type="hidden" name="_captcha" value="false" />
+
+                        <div class ="input-group">
+                        <textarea name="message" id="clientMessage" placeholder="message" type ="text" class ="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default" required />
                         </div>
                         <div className="d-flex justify-content-center">
-                        <button className="submit-btn text-end">Submit</button>
+                        <button type ="submit" className="submit-btn text-end">Submit</button>
                         </div>
                     </form>
+
                 </div>
             </div>
         </main>
