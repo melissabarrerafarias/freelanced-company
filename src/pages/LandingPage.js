@@ -5,12 +5,13 @@ import placeholder1 from '../assets/images/laptop-2838921_1920.jpg';
 import placeholder2 from '../assets/images/startup-594090_1920.jpg';
 import placeholder3 from '../assets/images/job-5382501_1920.jpg';
 import developers from '../assets/images/shelsy.jpg';
+import chibi from '../assets/images/chibi2.png'
 
 function LandingPage() {
     return (
         <main>
             {/* front page carousel */}
-            <div id="#mainCarousel">
+            {/* <div id="#mainCarousel">
                 <div class="carousel-branding"><h1 className="brand-name"><span id = "brand-background">SPACE<span className = "barr">BARR</span></span></h1></div>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -32,6 +33,19 @@ function LandingPage() {
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+                </div>
+            </div> */}
+            <div className="container-fluid" id="landing-page-top">
+                <div className="row text-center">
+
+                    <div className="col-md-6 landing-page-desc">
+                        <h1 className="top-company-name">SPACEBARR</h1>
+                        <h1 className="company-slogan">Web Design Made Easy</h1>
+                    </div>
+
+                    <div className="col-md-6 landing-page-logo"> 
+                    <img src={chibi} className="chibi"/>
+                    </div>
                 </div>
             </div>
 
@@ -135,7 +149,7 @@ function LandingPage() {
                     <div class="text-center">
                         <div class="collapse multi-collapse" id="FAQ2">
                             <div class="card card-body">
-                               It all depends on your website needs. If you'd like a rough estimate, feel free to contact us. We do free consultations. 
+                                It all depends on your website needs. If you'd like a rough estimate, feel free to contact us. We do free consultations.
                             </div>
                         </div>
                     </div>
@@ -146,8 +160,8 @@ function LandingPage() {
                 <div class="text-center">
                     <div class="collapse multi-collapse" id="FAQ3">
                         <div class="card card-body">
-                            Website building tools can sometimes be frustrating to use. We take the tedious task off your hands! In addition, we offer customizable 
-                            web-designs that can help you stand out. 
+                            Website building tools can sometimes be frustrating to use. We take the tedious task off your hands! In addition, we offer customizable
+                            web-designs that can help you stand out.
                         </div>
                     </div>
                 </div>

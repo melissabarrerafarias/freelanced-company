@@ -10,6 +10,32 @@ body, html {
     --indigo-dye: #2b4162 
 }
 
+#landing-page-top {
+    background-image: url(./assets/images/space3.jpeg);
+    height: 700px
+}
+
+.chibi {
+    max-width: 300px;
+}
+
+.landing-page-desc {
+    margin-top: 18%
+}
+
+.landing-page-logo {
+    margin-top: 10%
+}
+.top-company-name {
+    color: white; 
+    font-size: 40px
+}
+
+.company-slogan {
+    color: white; 
+    font-size: 20px
+}
+
 /* first carousel */ 
 .c-images {
     width: 100%; 
