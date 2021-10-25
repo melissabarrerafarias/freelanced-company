@@ -13,7 +13,7 @@ function Contact() {
                 <div className="row text-center">
 
                     <div className="col-md-6">
-                        <h1 className="contact-heading">Contact Us</h1>
+                        <h1 className="contact-heading">CONTACT US</h1>
                     </div>
 
                     <div className="col-md-6 contact-icon"> 

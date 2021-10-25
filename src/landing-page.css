@@ -27,18 +27,21 @@ body, html {
 .landing-page-logo {
     margin-top: 10%
 }
+
 .top-company-name {
     color: white; 
-    font-size: 40px
+    font-size: 40px; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .company-slogan {
     color: white; 
-    font-size: 20px
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* first carousel */ 
-.c-images {
+/* .c-images {
     width: 100%; 
     max-height: 1000px; 
 }
@@ -78,7 +81,7 @@ body, html {
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 1.5rem;
     height: 1.5rem;
-}
+} */
 
 /* what we offer section */ 
 
@@ -109,11 +112,13 @@ body, html {
 }
 
 .example-images {
-    height: 750px
+    height: 750px; 
+    opacity: 0.4;
 }
 
 .carousel-caption {
     bottom: 40%;
+    color: black
 }
 
 /* about us section */ 
@@ -342,6 +347,26 @@ body, html {
         flex: 0 0 auto;
         width: 100%;
     }
+
+    .chibi {
+        max-width: 250px;
+    }
+
+    .landing-page-desc {
+        margin-top: 40%
+    }
+    
+    .landing-page-logo {
+        margin-top: 15%
+    }
+    
+    .top-company-name {
+        font-size: 35px; 
+    }
+    
+    .company-slogan {
+        font-size: 18px; 
+    }
 }
 
 @media (max-width: 375.98px) {
@@ -403,6 +428,31 @@ body, html {
 
     #FAQ .card-body {
         font-size: 14px;
+    }
+
+    .chibi {
+        max-width: 200px;
+    }
+
+    .landing-page-desc {
+        margin-top: 50%
+    }
+    
+    .landing-page-logo {
+        margin-top: 20%
+    }
+    
+    .top-company-name {
+        font-size: 35px; 
+    }
+    
+    .company-slogan {
+        font-size: 18px; 
+    }
+
+    #landing-page-top {
+        background: linear-gradient(transparent, 80%, var(--ghost-white) ), url(./assets/images/cartoon_background.jpg);
+        height: 800px
     }
 }
 

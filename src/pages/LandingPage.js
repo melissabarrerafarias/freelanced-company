@@ -1,40 +1,16 @@
 import React from 'react';
 import '../landing-page.css';
 
-import placeholder1 from '../assets/images/laptop-2838921_1920.jpg';
-import placeholder2 from '../assets/images/startup-594090_1920.jpg';
-import placeholder3 from '../assets/images/job-5382501_1920.jpg';
+import cleaningService from '../assets/images/cleaning-service.jpg';
+import placeholder2 from '../assets/images/plant-shop.jpg';
+import placeholder3 from '../assets/images/art.jpg';
 import developers from '../assets/images/shelsy.jpg';
 import chibi from '../assets/images/chibi2.png'
 
 function LandingPage() {
     return (
         <main>
-            {/* front page carousel */}
-            {/* <div id="#mainCarousel">
-                <div class="carousel-branding"><h1 className="brand-name"><span id = "brand-background">SPACE<span className = "barr">BARR</span></span></h1></div>
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
-                            <img src={placeholder1} class="d-block w-100 c-images" alt="..."></img>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src={placeholder2} class="d-block w-100 c-images" alt="..."></img>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src={placeholder3} class="d-block w-100 c-images" alt="..."></img>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div> */}
+            {/* hero */}
             <div className="container-fluid" id="landing-page-top">
                 <div className="row text-center">
 
@@ -82,24 +58,24 @@ function LandingPage() {
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={placeholder1} class="d-block w-100 example-images" alt="..."></img>
+                            <img src={cleaningService} class="d-block w-100 example-images" alt="..."></img>
                             <div class="carousel-caption">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <h5>Cleaning Service Website</h5>
+                                <p>A simple and "clean" look!</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src={placeholder2} class="d-block w-100 example-images" alt="..."></img>
                             <div class="carousel-caption">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
+                                <h5>Plant Shop Website</h5>
+                                <p>This website will totally grow on you!</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src={placeholder3} class="d-block w-100 example-images" alt="..."></img>
                             <div class="carousel-caption">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
+                                <h5>Local Artist Website</h5>
+                                <p>Admire local art... and this website!</p>
                             </div>
                         </div>
                     </div>
