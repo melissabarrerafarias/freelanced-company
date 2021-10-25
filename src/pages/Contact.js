@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../contact.css';
-import chibiContact from '../assets/images/chibi2.png'
+import chibiContact from '../assets/images/company-icon.PNG'
 function Contact() {
     return (
         <main>

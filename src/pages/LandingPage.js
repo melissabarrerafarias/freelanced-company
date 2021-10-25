@@ -5,7 +5,7 @@ import cleaningService from '../assets/images/cleaning-service.jpg';
 import placeholder2 from '../assets/images/plant-shop.jpg';
 import placeholder3 from '../assets/images/art.jpg';
 import developers from '../assets/images/shelsy.jpg';
-import chibi from '../assets/images/chibi2.png'
+import chibi from '../assets/images/company-icon.PNG'
 
 function LandingPage() {
     return (
