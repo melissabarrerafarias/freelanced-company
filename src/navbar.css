@@ -7,7 +7,7 @@
 }
 
 #navTitle:hover {
-    color: var(--dark-electric)
+    color: #BBB5D6
 }
 
 .navbar-background {
@@ -24,7 +24,7 @@
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--dark-electric)
+    color: #BBB5D6
 }
 
 .navbar-light .navbar-toggler {

@@ -11,8 +11,9 @@ body, html {
 }
 
 #landing-page-top {
-    background-image: url(./assets/images/cartoon_background.jpg);
-    height: 700px
+    background: linear-gradient(transparent, 75%, var(--ghost-white) ), url(./assets/images/cartoon_background.jpg);
+    /* background-image: url(./assets/images/cartoon_background.jpg); */
+    height: 1000px
 }
 
 .chibi {
