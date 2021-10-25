@@ -1,13 +1,25 @@
 import React from 'react';
 
 import '../contact.css';
-import computerImg from '../assets/images/computer-glasses.jpg';
+import chibiContact from '../assets/images/chibi2.png'
 function Contact() {
     return (
         <main>
-            <div className="contact-hero">
+            {/* <div className="contact-hero">
                 <div class="contact-div-heading"><h1 className="contact-heading"><span id = "get-in-touch">Get In Touch With Us</span></h1></div>
                 <img src={computerImg} className="contact-img"></img>
+            </div> */}
+            <div className="container-fluid" id="contact-page-top">
+                <div className="row text-center">
+
+                    <div className="col-md-6">
+                        <h1 className="contact-heading">Contact Us</h1>
+                    </div>
+
+                    <div className="col-md-6 contact-icon"> 
+                    <img src={chibiContact} className="chibi"/>
+                    </div>
+                </div>
             </div>
 
             <div className="container"> {/* row must always be placed inside container (will cause white space if not) */}
