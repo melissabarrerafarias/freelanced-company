@@ -47,7 +47,9 @@ function LandingPage() {
             </div>
 
             {/* our work section with carousel*/}
-            <h1 className="landing-page-headings text-center">Our Work</h1>
+            <h1 id="work" className="landing-page-headings text-center">Our Work</h1>
+            <h4 className="text-center simple-examples">Simple examples of what we can do for you!</h4>
+
             <div className="container-fluid d-flex justify-content-center">
 
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -61,8 +63,8 @@ function LandingPage() {
                             <img src={cleaningService} class="d-block w-100 example-images" alt="..."></img>
                             <div class="carousel-caption">
                                 <h5>Cleaning Service Website</h5>
-                                <p>A simple and "clean" look!</p>
-                                <a href="">Visit</a>
+                                <p>A "clean" look!</p>
+                                <a href="http://evergreen-clean.herokuapp.com/">Visit</a>
                             </div>
                         </div>
                         <div class="carousel-item">

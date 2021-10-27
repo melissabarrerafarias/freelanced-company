@@ -106,6 +106,16 @@ body, html {
 }
 
 /* work examples section */ 
+.simple-examples {
+    font-family: 'Urbanist', sans-serif;
+    font-style: oblique;
+    font-size: 18px; 
+    color: rgb(44, 44, 44)
+}
+
+#work {
+    margin-bottom: 2%;
+}
 
 #carouselExampleCaptions {
     width: 60%; 
@@ -390,6 +400,10 @@ body, html {
         font-size: 25px;
         margin-bottom: 0%;
     }    
+
+    .simple-examples {
+        font-size: 14px; 
+    }
     
     .offer-icons {
         font-size: 40px;
