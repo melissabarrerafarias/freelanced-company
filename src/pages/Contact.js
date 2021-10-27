@@ -12,7 +12,7 @@ function Contact() {
             <div className="container-fluid" id="contact-page-top">
                 <div className="row text-center">
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 contact-heading-div">
                         <h1 className="contact-heading">CONTACT US</h1>
                     </div>
 

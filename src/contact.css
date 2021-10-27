@@ -31,6 +31,15 @@
     height: 1000px
 }
 
+.contact-heading-div {
+    /* margin-right: -18px;  */
+    /* margin-left: 10% */
+}
+
+#contact-page-top img{
+    max-width: 400px;
+}
+
 .contact-icon {
     margin-top: 10%; 
 }
@@ -266,6 +275,10 @@ ol, ul {
 
     .input-group {
         width: 90%;
+    }
+
+    #contact-page-top img{
+        max-width: 300px;
     }
 }
 
