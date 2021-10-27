@@ -1,0 +1,472 @@
+body, html {
+    background-color: var(--ghost-white);
+}
+
+:root {
+    --charcoal: #2f4550; 
+    --dark-electric: #586f7c; 
+    --ghost-white: #f4f4f9; 
+    --space-cadet: #192a51; 
+    --indigo-dye: #2b4162 
+}
+
+#landing-page-top {
+    background: linear-gradient(transparent, 75%, var(--ghost-white) ), url(./assets/images/cartoon_background.jpg);
+    /* background-image: url(./assets/images/cartoon_background.jpg); */
+    height: 1000px
+}
+
+.chibi {
+    max-width: 300px;
+}
+
+.landing-page-desc {
+    margin-top: 18%
+}
+
+.landing-page-logo {
+    margin-top: 10%
+}
+
+.top-company-name {
+    color: white; 
+    font-size: 40px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.company-slogan {
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* first carousel */ 
+/* .c-images {
+    width: 100%; 
+    max-height: 1000px; 
+}
+
+#mainCarousel {
+    position: relative;
+}
+
+.carousel-branding { 
+    color:var(--ghost-white);
+    position:absolute;
+    z-index:12;
+    margin-top: 23%;
+    width: 100%;
+    text-align: center;
+    text-shadow:  2px 2px #2b416276;
+    letter-spacing: 2px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: 13
+}
+
+.brand-name {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#brand-background {
+    background-color: #353535a3;
+    padding: 15px; 
+    border-radius: 10px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+} */
+
+/* what we offer section */ 
+
+.landing-page-headings {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.offer-icons {
+    font-size: 80px;
+}
+
+.offer-description {
+    font-size: 18px;
+    padding-right: 20%; 
+    padding-left: 20%;
+    margin-top: 5%; 
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* work examples section */ 
+.simple-examples {
+    font-family: 'Urbanist', sans-serif;
+    font-style: oblique;
+    font-size: 18px; 
+    color: rgb(44, 44, 44)
+}
+
+#work {
+    margin-bottom: 2%;
+}
+
+#carouselExampleCaptions {
+    width: 60%; 
+}
+
+.example-images {
+    height: 750px; 
+    opacity: 0.4;
+}
+
+.carousel-caption {
+    bottom: 40%;
+    color: black
+}
+
+/* about us section */ 
+.devs-img {
+    width: 75%;
+}
+
+.about-us-desc {
+    text-align: left;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+}
+
+#about {
+    margin-bottom: 15%
+}
+
+/* FAQ section */ 
+.faq-section {
+    margin-bottom: 10%;
+}
+
+.faq-questions {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#FAQ .card {
+    background-color: #586f7c3e;
+    margin-bottom: 20px; 
+    border: none
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+#FAQ .card-body {
+    margin-right: 10%;
+    margin-left: 10%; 
+    font-family: 'Urbanist', sans-serif;
+    font-size: 15px; 
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+
+/* media queries */ 
+@media (max-width: 1399.98px) {
+    .carousel-branding { 
+        margin-top: 26%;
+    }
+
+    #carouselExampleCaptions {
+        width: 80%; 
+    }
+ }
+
+@media (max-width: 1199.98px) {
+    .carousel-branding { 
+        margin-top: 30%;
+    }
+
+    .devs-img {
+        width: 95%;
+    }
+ }
+
+@media (max-width: 991.98px) {
+    .c-images {
+        max-height: 450px; 
+    }
+
+    .carousel-branding {
+        margin-top: 22%;
+    }
+    .brand-name {
+        font-size: 30px
+    }
+
+    #brand-background {
+        padding: 12px; 
+    }
+
+    .example-images {
+        height: 500px
+    }
+
+    .devs-img {
+        width: 100%;
+    }
+    
+    .about-us-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .c-images {
+        max-height:350px; 
+    }
+
+    .carousel-branding {
+        margin-top: 25%;
+    }
+
+    .brand-name {
+        font-size: 20px
+    }
+
+    .landing-page-headings {
+        margin-bottom: 2%;
+    }    
+    
+    .offer-icons {
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    
+    .offer-description {
+        margin-top: 5%; 
+    }
+
+    #carouselExampleCaptions {
+        width: 80%; 
+        margin-top: 10%;
+    }
+    
+    .example-images {
+        height: 500px
+    }
+    
+    .carousel-caption {
+        bottom: 35%;
+        font-size: 15px;
+    }
+
+    #carouselExampleCaptions h5 {
+        font-size: 18px;
+    }
+
+    .devs-img {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    #developersImages {
+        justify-content: center;
+    }
+    
+    .about-us-desc {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10%;
+    }
+
+    .faq-questions {
+        font-size: 18px;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .c-images {
+        max-height: 300px; 
+    }
+
+    .carousel-branding {
+        margin-top: 25%;
+    }
+
+    .brand-name {
+        font-size: 20px
+    }
+
+    #brand-background {
+        padding: 12px; 
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .offer-description {
+        padding-right: 10%; 
+        padding-left: 10%;
+    }
+
+    #carouselExampleCaptions {
+        width: 90%; 
+    }
+    
+    .example-images {
+        height: 400px
+    }
+    
+    .carousel-caption {
+        bottom: 35%;
+        font-size: 13px;
+    }
+
+    #carouselExampleCaptions h5 {
+        font-size: 15px;
+    }
+
+    .devs-img {
+        width: 80%;
+    }
+
+    #developersImages {
+        justify-content: center;
+    }
+    
+    .about-us-desc {
+        font-size: 15px;
+        margin-top: 10%;
+    }
+
+    .faq-questions {
+        font-size: 15px;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .chibi {
+        max-width: 250px;
+    }
+
+    .landing-page-desc {
+        margin-top: 40%
+    }
+    
+    .landing-page-logo {
+        margin-top: 15%
+    }
+    
+    .top-company-name {
+        font-size: 35px; 
+    }
+    
+    .company-slogan {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 375.98px) {
+    .c-images {
+        max-height: 190px; 
+    }
+
+    .carousel-branding {
+        margin-top: 25%;
+    }
+
+    .brand-name {
+        font-size: 15px
+    }
+
+    #brand-background {
+        padding: 8px; 
+    }
+
+    .landing-page-headings {
+        font-size: 25px;
+        margin-bottom: 0%;
+    }    
+
+    .simple-examples {
+        font-size: 14px; 
+    }
+    
+    .offer-icons {
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    
+    .offer-description {
+        margin-top: 5%; 
+        font-size: 14px;
+        padding-right: 10%; 
+        padding-left: 10%;
+    }
+
+    #carouselExampleCaptions {
+        width: 95%; 
+    }
+    
+    .example-images {
+        height: 300px
+    }
+    
+    .carousel-caption {
+        bottom: 25%;
+        font-size: 12px;
+    }
+
+    #carouselExampleCaptions h5 {
+        font-size: 14px;
+    }
+
+    .about-us-desc {
+        font-size: 14px;
+        padding-right: 5%; 
+        padding-left: 5%;
+    }
+
+    #FAQ .card-body {
+        font-size: 14px;
+    }
+
+    .chibi {
+        max-width: 200px;
+    }
+
+    .landing-page-desc {
+        margin-top: 50%
+    }
+    
+    .landing-page-logo {
+        margin-top: 20%
+    }
+    
+    .top-company-name {
+        font-size: 35px; 
+    }
+    
+    .company-slogan {
+        font-size: 18px; 
+    }
+
+    #landing-page-top {
+        background: linear-gradient(transparent, 80%, var(--ghost-white) ), url(./assets/images/cartoon_background.jpg);
+        height: 800px
+    }
+}
+
