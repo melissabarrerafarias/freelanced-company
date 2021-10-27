@@ -4,7 +4,7 @@ import '../landing-page.css';
 import cleaningService from '../assets/images/cleaning-service.jpg';
 import placeholder2 from '../assets/images/plant-shop.jpg';
 import placeholder3 from '../assets/images/art.jpg';
-import developers from '../assets/images/shelsy.jpg';
+import developers from '../assets/images/sisters.JPEG';
 import chibi from '../assets/images/company-icon.PNG'
 
 function LandingPage() {
@@ -100,7 +100,7 @@ function LandingPage() {
                 <h1 className="landing-page-headings text-center">About Us</h1>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
-                        <p className="about-us-desc">We are first-generation immigrant sisters, (Melissa left, Shelsy right), who learned the importance of being industrious from a
+                        <p className="about-us-desc">We are first-generation immigrant sisters, (Shelsy left, Melissa right), who learned the importance of being industrious from a
                             young age. After earning our certification as full-stack web developers at UC Berkeley, we decided to use our knowledge and turn our passion for creativity into an
                             opportunity to help up-and-coming businesses reach their full potential. Our company takes pride in being trustworthy and honest. We look forward to working
                             with you!</p>
@@ -130,19 +130,21 @@ function LandingPage() {
                     <div class="text-center">
                         <div class="collapse multi-collapse" id="FAQ2">
                             <div class="card card-body">
-                                It all depends on your website needs. If you'd like a rough estimate, feel free to contact us. We do free consultations.
+                                It all depends on your website needs. If you'd like a rough estimate, feel free to contact us. We do free consultations. Call, email,
+                                or send us a message!
                             </div>
                         </div>
                     </div>
 
                     <button class="btn col-sm-12 col-md-12 faq-questions" type="button" data-bs-toggle="collapse" href="#FAQ3" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
-                        What makes you different from other website building tools?</button>
+                        What makes you different from other website builders?</button>
                 </div>
                 <div class="text-center">
                     <div class="collapse multi-collapse" id="FAQ3">
                         <div class="card card-body">
-                            Website building tools can sometimes be frustrating to use. We take the tedious task off your hands! In addition, we offer customizable
-                            web-designs that can help you stand out.
+                            Website building tools can sometimes be frustrating to use. We take the tedious task off your hands! We offer customizable
+                            web-designs that can help you stand out. In addition, we keep constant contact with you throughout the process to ensure
+                            we are meeting your expectations!
                         </div>
                     </div>
                 </div>

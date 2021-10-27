@@ -52,7 +52,7 @@ function Contact() {
             </div>
 
             <div id="contactFormDiv" className="container">
-                <h1 className="text-center">Contact Us</h1>
+                <h1 className="text-center">Send Us A Message</h1>
                 <h3 className="text-center">We'd love to work with you</h3>
                 <div className="col-md-12">
 

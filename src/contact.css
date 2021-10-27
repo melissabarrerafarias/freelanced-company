@@ -1,15 +1,15 @@
-.contact-hero {
+/* .contact-hero {
     max-height: 900px;
     overflow: hidden;
-}
+} */
 
 .contact-div-heading {
     color:var(--ghost-white);
-    position:absolute;
-    z-index:12;
+    /* position:absolute; */
+    /* z-index:12; */
     margin-top: 23%;
-    width:100%;
-    text-align: center;
+    /* width:100%; */
+    /* text-align: right; */
 }
 
 .contact-heading {
@@ -17,6 +17,12 @@
     font-family: 'Montserrat', sans-serif;
     text-shadow:  2px 2px #2b416276;
     margin-top: 40%
+}
+
+.contact-heading-confirm {
+    color: var(--ghost-white); 
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:  2px 2px #2b416276;
 }
 
 #get-in-touch {
@@ -186,16 +192,26 @@ ol, ul {
     color: var(--dark-electric)
 }
 
-#confirmationSent {
+/* #confirmationSent {
     text-align: center;
     margin-top: 21%; 
     margin-bottom: 20%;
+} */
+
+#confirm-sent {
+    background-image: url('./assets/images/cartoon_background.jpg');
+    height: 900px;
 }
 
 .go-back {
     text-decoration: underline; 
     color: var(--ghost-white)
 }
+
+/* .contact-img {
+    max-width: 50%;
+    margin-top: 40%;
+} */
 
 /* media queries */ 
 @media (max-width: 1399.98px) {

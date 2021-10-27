@@ -1,16 +1,18 @@
 import React from 'react';
 import '../contact.css';
-import call from '../assets/images/cell-phone-690192_1920.jpg'
+// import call from '../assets/images/company-icon-floating.png'
 function ConfirmationSent() {
     return (
-        <main>
-            <div className="contact-hero">
-                <div class="contact-div-heading">
-                    <h1 className="contact-heading">Thank you for reaching out</h1>
-                    <h4 className="contact-heading">We will get back to you soon!</h4>
-                    <a href = "/" className = "go-back">Return to homepage</a>
+        <main id="confirm-sent">
+            <div className="container">
+                <div className="row">
+                    <div class="contact-div-heading col-md-6">
+                        <h1 className="contact-heading-confirm">Thank you for reaching out</h1>
+                        <h4 className="contact-heading-confirm">We will get back to you soon!</h4>
+                        <a href="/" className="go-back">Return to homepage</a>
+                    </div>
+
                 </div>
-                <img src={call} className="contact-img"></img>
             </div>
         </main>
     )
