@@ -75,14 +75,14 @@ function LandingPage() {
                                 <a href="https://penelopesplantshop.herokuapp.com/">Visit</a>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        {/* <div class="carousel-item">
                             <img src={placeholder3} class="d-block w-100 example-images" alt="..."></img>
                             <div class="carousel-caption">
                                 <h5>Local Artist Website</h5>
                                 <p>Admire local art... and this website!</p>
                                 <a href="">Visit</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

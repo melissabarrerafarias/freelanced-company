@@ -67,7 +67,7 @@ function Contact() {
                                 aria-describedby="inputGroup-sizing-default" required />
                         </div>
 
-                        <input type='hidden' name="_next" value="http://localhost:3000/confirm" /> {/* needs to be changed to actual domain */}
+                        <input type='hidden' name="_next" value="http://spacebarr.net/confirm" /> {/* needs to be changed to actual domain */}
                         <input type="hidden" name="_captcha" value="false" />
 
                         <div class ="input-group">
