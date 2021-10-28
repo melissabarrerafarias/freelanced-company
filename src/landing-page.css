@@ -121,6 +121,16 @@ body, html {
     width: 60%; 
 }
 
+#carouselExampleCaptions a {
+    color: black; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#carouselExampleCaptions i {
+    font-size: 12px;
+}
+
 .example-images {
     height: 750px; 
     opacity: 0.4;

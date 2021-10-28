@@ -208,6 +208,10 @@ ol, ul {
     color: var(--ghost-white)
 }
 
+.go-back:hover {
+    color: var(--ghost-white)
+}
+
 /* .contact-img {
     max-width: 50%;
     margin-top: 40%;

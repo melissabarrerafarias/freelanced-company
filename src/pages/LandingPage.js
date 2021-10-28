@@ -64,7 +64,7 @@ function LandingPage() {
                             <div class="carousel-caption">
                                 <h5>Cleaning Service Website</h5>
                                 <p>A "clean" look!</p>
-                                <a href="http://evergreen-clean.herokuapp.com/">Visit</a>
+                                <a href="http://evergreen-clean.herokuapp.com/">Visit <i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -72,7 +72,7 @@ function LandingPage() {
                             <div class="carousel-caption">
                                 <h5>Plant Shop Website</h5>
                                 <p>This website will totally grow on you!</p>
-                                <a href="https://penelopesplantshop.herokuapp.com/">Visit</a>
+                                <a href="https://penelopesplantshop.herokuapp.com/">Visit <i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                         {/* <div class="carousel-item">
