@@ -100,7 +100,7 @@ function LandingPage() {
                 <h1 className="landing-page-headings text-center">About Us</h1>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
-                        <p className="about-us-desc">We are first-generation immigrant sisters, (Shelsy left, Melissa right), who learned the importance of being industrious from a
+                        <p className="about-us-desc">We are sisters, (Shelsy left, Melissa right), who learned the importance of being industrious from a
                             young age. After earning our certification as full-stack web developers at UC Berkeley, we decided to use our knowledge and turn our passion for creativity into an
                             opportunity to help up-and-coming businesses reach their full potential. Our company takes pride in being trustworthy and honest. We look forward to working
                             with you!</p>
