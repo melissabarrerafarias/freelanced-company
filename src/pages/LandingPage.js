@@ -16,18 +16,18 @@ function LandingPage() {
 
                     <div className="col-md-6 landing-page-desc">
                         <h1 className="top-company-name">SPACEBARR</h1>
-                        <h1 className="company-slogan">Web Design Made Easy</h1>
+                        <h1 className="company-slogan">Website Design Made Easy</h1>
                     </div>
 
                     <div className="col-md-6 landing-page-logo"> 
-                    <img src={chibi} className="chibi"/>
+                    <img src={chibi} className="chibi" alt="websiteDesignSpacebar"/>
                     </div>
                 </div>
             </div>
 
             {/* what we offer section */}
             <div className="container-fluid">
-                <h1 className="landing-page-headings text-center">What We Offer</h1>
+                <h1 className="landing-page-headings text-center">What We Offer Businesses</h1>
 
                 <div className="row text-center mt-5">
                     <div className="col-md-6 col-sm-12">
@@ -48,7 +48,7 @@ function LandingPage() {
 
             {/* our work section with carousel*/}
             <h1 id="work" className="landing-page-headings text-center">Our Work</h1>
-            <h4 className="text-center simple-examples">Simple examples of what we can do for you!</h4>
+            <h4 className="text-center simple-examples">Simple examples of what we can do for your small business!</h4>
 
             <div className="container-fluid d-flex justify-content-center">
 
@@ -60,7 +60,7 @@ function LandingPage() {
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={cleaningService} class="d-block w-100 example-images" alt="..."></img>
+                            <img src={cleaningService} class="d-block w-100 example-images" alt="smallBusinessCleaning"></img>
                             <div class="carousel-caption">
                                 <h5>Cleaning Service Website</h5>
                                 <p>A "clean" look!</p>
@@ -68,7 +68,7 @@ function LandingPage() {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src={placeholder2} class="d-block w-100 example-images" alt="..."></img>
+                            <img src={placeholder2} class="d-block w-100 example-images" alt="smallBusinessPlants"></img>
                             <div class="carousel-caption">
                                 <h5>Plant Shop Website</h5>
                                 <p>This website will totally grow on you!</p>
@@ -97,7 +97,7 @@ function LandingPage() {
 
             {/* about us section */}
             <div id="about" className="container">
-                <h1 className="landing-page-headings text-center">About Us</h1>
+                <h1 className="landing-page-headings text-center">Meet the Web Designers</h1>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <p className="about-us-desc">We are sisters, (Shelsy left, Melissa right), who learned the importance of being industrious from a
@@ -106,7 +106,7 @@ function LandingPage() {
                             with you!</p>
                     </div>
                     <div id="developersImages" className="col-md-6 col-sm-12 d-flex justify-content-lg-end">  {/* can change to 'text-center' */}
-                        <img src={developers} className="devs-img"></img>
+                        <img src={developers} className="devs-img" alt="WebsiteDesignersInfo"></img>
                     </div>
                 </div>
             </div>
