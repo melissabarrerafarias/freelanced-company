@@ -17,7 +17,7 @@ function Contact() {
                     </div>
 
                     <div className="col-md-6 contact-icon"> 
-                    <img src={chibiContact} className="chibi"/>
+                    <img src={chibiContact} className="chibi" alt="websiteDesignsContact"/>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ function Contact() {
 
                         <div className="contact-divs">
                             <i class="fas fa-envelope-square contact-logos"></i>Or Email Us at
-                            <a href="mailto:spacebarr@gmail.com"> @spacebarrofficial@gmail.com</a>
+                            <a href="mailto:spacebarrofficial@gmail.com"> @spacebarrofficial@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Contact() {
 
             <div id="contactFormDiv" className="container">
                 <h1 className="text-center">Send Us A Message</h1>
-                <h3 className="text-center">We'd love to work with you</h3>
+                <h3 className="text-center">We'd love to work with you!</h3>
                 <div className="col-md-12">
 
                     <form className="client-form" action="https://formsubmit.co/bf08c4938b1b5a7ebce82ff857e28784" method="POST">
