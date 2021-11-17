@@ -45,7 +45,7 @@ function Contact() {
 
                         <div className="contact-divs">
                             <i class="fas fa-envelope-square contact-logos"></i>Or Email Us at
-                            <a href="mailto:spacebarr@gmail.com"> @spacebarrofficial@gmail.com</a>
+                            <a href="mailto:spacebarrofficial@gmail.com"> @spacebarrofficial@gmail.com</a>
                         </div>
                     </div>
                 </div>
