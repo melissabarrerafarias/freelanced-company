@@ -3,7 +3,7 @@ import '../landing-page.css';
 
 import cleaningService from '../assets/images/cleaning-service.jpg';
 import placeholder2 from '../assets/images/plant-shop.jpg';
-import placeholder3 from '../assets/images/art.jpg';
+import placeholder3 from '../assets/images/beautybybelle.jpg';
 import developers from '../assets/images/sisters.JPEG';
 import chibi from '../assets/images/company-icon.PNG'
 
@@ -56,7 +56,7 @@ function LandingPage() {
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        {/* <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> */}
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -75,14 +75,14 @@ function LandingPage() {
                                 <a href="https://penelopesplantshop.herokuapp.com/">Visit <i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
-                        {/* <div class="carousel-item">
-                            <img src={placeholder3} class="d-block w-100 example-images" alt="..."></img>
+                        <div class="carousel-item">
+                            <img src={placeholder3} class="d-block w-100 example-images" alt="smallBusinessMakeup"></img>
                             <div class="carousel-caption">
-                                <h5>Local Artist Website</h5>
-                                <p>Admire local art... and this website!</p>
-                                <a href="">Visit</a>
-                            </div>
-                        </div> */}
+                                <h5>Stylist Website</h5>
+                                <p>You're lookin' great, and so is this website!</p>
+                                <a href="https://beautyxbelle.herokuapp.com/">Visit <i class="fas fa-external-link-alt"></i></a>
+                            </div> 
+                        </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -130,7 +130,7 @@ function LandingPage() {
                     <div class="text-center">
                         <div class="collapse multi-collapse" id="FAQ2">
                             <div class="card card-body">
-                                It all depends on your website needs. Prices can range anywhere between $2,000 to $8,000. If you'd like an estimate, feel free to contact us. We do free consultations. Call, email,
+                                It all depends on your website needs. Prices can range anywhere between $500 to $8,000. If you'd like an estimate, feel free to contact us. We do free consultations. Call, email,
                                 or send us a message!
                             </div>
                         </div>
